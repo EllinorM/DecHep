@@ -16,7 +16,7 @@ public class InputName {
 		while (active) {
 			System.out.println("Please enter the competitor's name:");
 			compName = sc.nextLine();
-			if (!compName.matches(".*[a-öA-ö]")) {
+			if (!compName.matches(".*[a-Ã¶A-Ã¶]")) {
 				System.out.println("Only use letters when putting in competitors name.");
 
 			} else {
@@ -27,3 +27,4 @@ public class InputName {
 		return compName;
 	} 
 }
+// hejhej
